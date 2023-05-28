@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Edu Academy</title>
+
+    <!--=============== BOOTSTRAP CSS ===============-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--=============== BOOTSTRAP ICON ===============-->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+
+    <!--=============== GOOGLE FONTS ===============-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--=============== ICON ===============-->
+    <link rel="icon" type="images" href="https://cdn-icons-png.flaticon.com/512/749/749098.png">
+
+    
+    <!--=============== CUSTOM CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+
+<body>
+
+   
+    <!----------------------------------------HEADER START------------------------------------------------->
+    <header>
+     
+
+        <!----------------------------------------NAVBAR START------------------------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="https://poly.ac.mu/wp-content/uploads/2020/05/Logo-PML-300x83.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cour">Courses</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gal">Gallery</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#con">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
+                        <li class="nav-item">
+                            <a class="nav-link " href="login.html" target="_blank">
+                                <i class="bi bi-person "></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!----------------------------------------NAVBAR END------------------------------------------------->
+    </header>
+    <!----------------------------------------HEADER END------------------------------------------------->
+
+
+    <!----------------------------------------HOME------------------------------------------------->
+
+    <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid w-100 h-100 overflow-hidden"
+                    src="https://poly.ac.mu/wp-content/uploads/2021/06/AMS_0003-min-scaled.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>Polytechnics Mauritius</h5>
+                    <p>Secure your future with us</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid w-100 h-100 overflow-hidden"
+                    src="https://poly.ac.mu/wp-content/uploads/2021/06/DSC_3711-min-1030x688.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>Polytechnics Mauritius</h5>
+                    <p>Secure your future with us</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid w-100 h-100 overflow-hidden"
+                    src="https://scontent.fmru7-1.fna.fbcdn.net/v/t39.30808-6/339050385_971961530848581_8568987735138131821_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Ig66HewnhhAAX_4lNgn&_nc_ht=scontent.fmru7-1.fna&oh=00_AfDKeVpQ52mnoim7ovIHEI79iKakbcY7zHUQINXfvzKw3Q&oe=64732D84"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>Polytechnics Mauritius</h5>
+                    <p>Secure your future with us</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<br>
+    
+    <!----------------------------------------ABOUT------------------------------------------------->
+
+    <main id="main">
+
+        <section id="about" class="about mt-5">
+            <div class="container">
+                <h2 class="h1-responsive font-weight-bold text-center my-2">About Us</h2>
+
+                <div class="row  pt-5 pb-5">
+
+                    <div class="col-lg-5 align-items-stretch video-box"
+                        style='background-image: url("https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585_960_720.jpg");'>
+                        <a href="https://youtu.be/oQ8xlzMGZO0" class="venobox play-btn mb-4"
+                            data-vbtype="video" data-autoplay="true" target="_blank"></a>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                        <div class="content">
+
+                            <h3>Teaching <strong>Facilities</strong></h3>
+                            <p>
+                                PML is equipped with state-of-the-art facilities to fulfil on the Polytechnics style of education. 
+                            </p>
+                            <p class="font-italic">
+                              Below are some of the facilities used to aid learning.
+                            </p>
+                            <ul>
+                                <li><i class="bx bx-check-double"></i> Online Platform for continuous learning</li>
+                                <li><i class="bx bx-check-double"></i> On Campus Face to face </li>
+                                
+                               
+                            </ul>
+                            <p>
+                                We have different campus all around the island for each field 
+                                <li>Reduit Campus Headquarters</li>
+                                <li>Montagne Blanche Campus</li>
+                                <li>Pamplemousses Campus</li>
+                                <li>Rose Belle Campus</li>
+                            </p>
+
+                            <a href="" class="btn btn-primary px-2 p1-2">Read More</a>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+ </main>
+
+<br>
+        <!----------------------------------------COURSES------------------------------------------------->
+
+        <section id="cour">
+            <div class="container course pb-5 pt-4">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Courses</h2>
+                <!--Section description-->
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://poly.ac.mu/wp-content/uploads/2020/08/Specialist-Diploma-in-Public-Health-Nursing.png"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">HEALTH SCIENCES & NURSING</h5>
+                                <p class="card-text">Fulfill your dream of becoming a fully pledged registered nurse </p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://poly.ac.mu/wp-content/uploads/2023/01/big-data-300x300-1.png"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">IT & EMERGING TECHNOLOGIES</h5>
+                                <p class="card-text">Fulfill your dream of becoming a fully pledged registered in IT field </p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://poly.ac.mu/wp-content/uploads/2023/01/300_300.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">TOURISM & HOSPITALITY</h5>
+                                <p class="card-text">Fulfill your dream of becoming a fully pledged registered in Tourism field</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-4">
+                        <div class="card box mt-3">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://poly.ac.mu/wp-content/uploads/2023/01/architectural-300x300-1.png"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">ENGINEERING</h5>
+                                <p class="card-text">Fulfill your dream of becoming a fully pledged registered engineer</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-4">
+                        <div class="card box mt-3">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://poly.ac.mu/wp-content/uploads/2021/05/Spanish-Language.png"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">LANGUAGE</h5>
+                                <p class="card-text">Fulfill your dream of becoming a fully pledged registered translator</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------GALLERY------------------------------------------------->
+
+        <section id="gal">
+            <div class="container">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Gallery</h2>
+                
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="sd carousel-item active">
+                              <img src="https://poly.ac.mu/wp-content/uploads/2020/06/Outdoor-sitting-area-1030x688.jpg" class="d-block w-100" >
+                            </div>
+
+                            <div class="sd carousel-item">
+                              <img src="https://poly.ac.mu/wp-content/uploads/2021/06/AMS_0003-min-1030x579.jpg" class="d-block w-100" >
+                            </div>
+
+                            <div class="sd carousel-item">
+                              <img src="https://poly.ac.mu/wp-content/uploads/2021/06/AMS_0119-min-1030x687.jpg" class="d-block w-100" >
+                            </div>
+
+                             <div class="sd carousel-item">
+                              <img src="https://poly.ac.mu/wp-content/uploads/2023/01/FACILITIES-10.jpeg" class="d-block w-100" >
+                            </div>
+
+                             <div class="sd carousel-item">
+                              <img src="https://poly.ac.mu/wp-content/uploads/2020/06/Lecture-Theater-3-1030x688.jpg" class="d-block w-100" >
+                            </div>
+
+                            <div class="sd carousel-item">
+                              <img src="https://www.lexournal.mu/wp-content/uploads/2022/10/polytechnics-2-scaled.jpg" class="d-block w-100">
+                            </div>
+
+                            <div class="sd carousel-item">
+                              <img src="https://defimedia.info/sites/default/files/styles/node_content_picture_no_watermark/public/010219-polytechnics1.jpg?itok=igLkzjmx" class="d-block w-100" >
+                            </div>
+
+
+
+                            <div class="sd carousel-item">
+                              <img src="https://govmu.org/EN/newsgov/SiteAssets/SitePages/Prime-Minister-graces-the-first-graduation-ceremony-of-Polytechnics-Mauritius/97579-IRF_6193.jpg" class="d-block w-100" >
+                            </div>
+
+                            <div class="sd carousel-item">
+                              <img src="https://govmu.org/EN/newsgov/SiteAssets/SitePages/Prime-Minister-graces-the-first-graduation-ceremony-of-Polytechnics-Mauritius/75393-IRF_6121.jpg" class="d-block w-100" >
+                            </div>
+
+                            <div class="sd carousel-item">
+                              <img src="https://cdn.ionnews.mu/wp-content/uploads/2022/09/Graduation-Polytechnics-Mauritius.jpg" class="d-block w-100" >
+                            </div>
+
+                        </div>
+
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                
+            </div>
+        </section>
+
+<br><br>
+
+        <!----------------------------------------CONTACT US------------------------------------------------->
+        <section id="con">
+
+            <div class="container mb-5">
+                
+                <section class="mb-4">
+
+                    
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                    
+                    <p class="text-center w-responsive mx-auto mb-5"> Please do not hesitate
+                        to contact us directly.<br> Our team will come back to you within
+                        a matter of hours to help you.</p>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control" required>
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control" required>
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+  
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                      
+                        <div class="col-md-6 text-center">
+
+                    <div class="map_container">
+                            <canvas
+                                id="cobe"
+                                style="width: 350px; height: 350px"
+                                width="350"
+                                height="350"
+                            >
+                            </canvas>
+                        </div>
+                    </div>
+                        
+
+                    </div>
+
+                </section>
+               
+            </div>
+    </section>
+
+
+
+    <!----------------------------------------FOOTER------------------------------------------------->
+
+    <section id="topbar" class="bg-light text-center text-white" style="background-color:#f1f1f1 !important;">
+        <div class="container">
+          <div class="row">
+            <div class="text-center text-dark">
+             <span class="px-3"><i class="bi bi-phone  "></i> +230 460 0705 </span>
+          <i class="bi bi-clock"></i> Mon-Sat: 09:00 AM - 17:00 PM
+            </div>
+         
+          </div>
+        </div>
+      </section>
+
+    <footer class="bg-light text-center text-white" style="background-color:#f1f1f1 !important;">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998; border-radius: 25px;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-facebook"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee; border-radius: 25px;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39; border-radius: 25px;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac; border-radius: 25px;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca; border-radius: 25px;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333; border-radius: 25px;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-github"></i
+      ></a>
+    </section>
+    
+  </div>
+ 
+
+  <!-- Copyright -->
+  <div class="text-center p-3 text-dark" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+ 
+</footer>
+
+
+
+        <!--=============== BOOTSTRAP JAVASCRIPT ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <script type="module">
+    import createGlobe from 'https://cdn.skypack.dev/cobe'
+  
+    let phi = 0
+    let canvas = document.getElementById("cobe")
+  
+    const globe = createGlobe(canvas, {
+      devicePixelRatio: 1,
+      width: 350,
+      height: 350,
+      phi: 0,
+      theta: 0.7,
+      dark: 1,
+      diffuse: 1,
+      scale: 1,
+      mapSamples:26000,
+      mapBrightness: 8,
+      baseColor: [1, 1, 1],
+      markerColor: [255, 0, 0],
+      glowColor: [1, 1, 1],
+      offset: [0, 0],
+      markers: [
+        { location: [45.4317, 10.9859], size: 0.04 },
+      ],
+      onRender: (state) => {
+        // Called on every animation frame.
+        // `state` will be an empty object, return updated params.
+        state.phi = phi
+        phi += 0.008
+      },
+    })
+  </script>
+
+</body>
+
+</html>
