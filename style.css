@@ -84,8 +84,6 @@ header nav ul.action-menu .nav-item .nav-link {
   right: 0;
 }
 
-
-
 .carousel-caption h5 {
   color: #fff;
   margin-bottom: 10px;
@@ -96,7 +94,6 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .carousel-caption p {
-  
   font-size: 20px;
   width: 80%;
   -webkit-animation-delay: 0.4s;
@@ -269,16 +266,7 @@ header nav ul.action-menu .nav-item .nav-link {
   }
 }
 
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
+
 
 @keyframes pulsate-btn {
   0% {
@@ -333,10 +321,39 @@ canvas:hover {
 
 
 
-@media (max-width: 525px){
+@media (max-width: 767px){
 
 .sd{
-  height: 200px !important;
+  height: 250px !important;
 }
 
+.content h3{
+  font-size: 25px !important;
 }
+
+.content p li{
+  font-size: 12px !important;
+}
+
+.yo{
+  margin-top: 20px;
+}
+
+.card-title{
+  font-size: 18px !important;
+
+}
+
+.card-text{
+  font-size: 14px !important;
+}
+
+.tt{
+  font-size: 12px;
+}
+
+.nn{
+  font-size: 14px;
+} 
+}
+
