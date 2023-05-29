@@ -56,7 +56,7 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 
-.carousel-item {
+.ss {
   width: 100%;
   height: 100vh!important;
   background-size: cover;
@@ -64,7 +64,7 @@ header nav ul.action-menu .nav-item .nav-link {
   background-repeat: no-repeat;
 }
 
-.carousel-item::before {
+.ss::before {
   content: '';
   background-color: rgba(12, 11, 10, 0.5);
   position: absolute;
@@ -319,12 +319,18 @@ canvas:hover {
   margin-left:10px;
 }
 
-
+.sd{
+  width: 100%;
+  height: 100vh!important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 @media (max-width: 767px){
 
 .sd{
-  height: 250px !important;
+  height: 230px !important;
 }
 
 .content h3{
